@@ -1,5 +1,7 @@
 using System;
 
+namespace Blog;
+
 public class BlogComment
 {
     public int Id { get; set; }
@@ -15,6 +17,7 @@ public class BlogComment
     public DateTime CreatedDate { get; set; }
 
     public BlogPost BlogPost { get; set; }
+    
     public int BlogPostId { get; set; }
         
     public string UserName { get; set; }

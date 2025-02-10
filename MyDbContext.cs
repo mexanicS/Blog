@@ -3,6 +3,8 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
+namespace Blog;
+
 public class MyDbContext : DbContext
 {
     private static SqliteConnection _connection;
